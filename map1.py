@@ -16,7 +16,7 @@ lon = list(data['LON'])
 name = list(data['NAME'])
 ele = list(data['ELEV'])
 
-map = folium.Map(location=[50.708611, -105.179628],zoom_start=3)
+map = folium.Map(location=[50.708611, -105.179628],zoom_start=3, tiles = 'Stamen Terrain')
 
 fg = folium.FeatureGroup(name="My Map")
 
